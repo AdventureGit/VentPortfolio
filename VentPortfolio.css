@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Horizon';
+    src: url(horizon.otf);
+} 
+@font-face {
+    font-family: 'Libre Baskerville-Italic';
+    src: url(LibreBaskerville-Italic.ttf);
+} 
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.intro{ 
+    background-color: #283618;
+    height: 100vh;
+    width: 100vw;
+    position: static;
+}
+.intro h1{
+ font-family: 'Horizon';
+ font-size: 100px;
+ text-align: center;
+ color: #dda15e;
+ position: absolute;
+ margin-top: 250px;
+}
+.intro h2{
+    position: absolute;
+    text-align: center;
+    margin-left: 31vw;
+    margin-top: 70vh;
+    color: #fefae0;
+    font-family:'Libre Baskerville-Italic';
+    font-weight: 100;
+}
+.aboutme{
+    position: static;
+    height: 70vh;
+    width: 100vw;
+    background-color: #fefae0;  
+}
+.projects{
+    position: static;
+    height: 70vh;
+    width: 100vw;
+    background-color: #fefae0;  
+}
+.contact{
+    position: statics;
+    height: 70vh;
+    width: 100vw;
+    background-color: #fefae0;  
+}
